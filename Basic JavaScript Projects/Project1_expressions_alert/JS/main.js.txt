@@ -1,18 +1,11 @@
-// This JavaScript file demonstrates the use of variables, alert, and document.write methods.
+// This function demonstrates how to use the += operator to concatenate strings
+function updateText() {
+    // Get the paragraph element by its ID
+    var text = document.getElementById("result");
 
-// Create two variables containing strings
-var Sent1 = "This is the beginning of the string";
-var Sent2 = " and this is the end of the string";
-
-// Concatenate the two strings
-var fullSentence = Sent1 + Sent2;
-
-// Display the combined sentence in an alert window
-window.alert(fullSentence);
-
-// Write the concatenated sentence on the web page
-document.write(fullSentence);
-
-// Example of an expression
-// This expression adds two numbers and writes the result to the page
-document.write("<br><br>The result of 5 + 7 is: " + (5 + 7));
+    // Concatenate new text using the += operator
+    text.innerHTML += " JavaScript functions are powerful!";
+    
+    // Add a console log to show that the function has run (optional for testing)
+    console.log("updateText() function executed successfully.");
+}
