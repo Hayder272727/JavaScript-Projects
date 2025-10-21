@@ -1,0 +1,18 @@
+// This JavaScript file demonstrates the use of variables, alert, and document.write methods.
+
+// Create two variables containing strings
+var Sent1 = "This is the beginning of the string";
+var Sent2 = " and this is the end of the string";
+
+// Concatenate the two strings
+var fullSentence = Sent1 + Sent2;
+
+// Display the combined sentence in an alert window
+window.alert(fullSentence);
+
+// Write the concatenated sentence on the web page
+document.write(fullSentence);
+
+// Example of an expression
+// This expression adds two numbers and writes the result to the page
+document.write("<br><br>The result of 5 + 7 is: " + (5 + 7));
