@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project5: Comparisons & Type Coercion</title>
+    <script src="JS/main.js" defer></script>
+</head>
+<body>
+    <h1>JavaScript Comparison and Type Coercion Examples</h1>
+    <p>The results of each comparison will be displayed below:</p>
+</body>
+</html>
+
