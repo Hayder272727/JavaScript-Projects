@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 7: Scope, Time, and Debugging</title>
+    <script src="JS/main.js" defer></script>
+</head>
+<body>
+    <h1>Project 7 – Scope, Time & Debugging</h1>
+
+    <h2>1️⃣ Local & Global Variables</h2>
+    <p>Open the Console (F12 → Console tab) to view the variable scope results.</p>
+
+    <h2>2️⃣ Time Function</h2>
+    <p id="Time" onclick="Time_function()">Click here to see what part of the day it is</p>
+
+    <h2>3️⃣ If/Else Function Example</h2>
+    <p>Please enter your age:</p>
+    <input id="Age" type="number" placeholder="Enter your age">
+    <button onclick="checkAge()">Check Eligibility</button>
+    <p id="Result"></p>
+</body>
+</html>

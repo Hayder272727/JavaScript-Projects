@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project 6: Ternary Operators and Constructors</title>
+    <script src="JS/main.js" defer></script>
+</head>
+<body>
+    <h1>Final Project 6: Ternary Operators, Constructors & Nested Functions</h1>
+
+    <!-- Ternary Operator Example -->
+    <h2>Ternary Operator Example</h2>
+    <p>Riders must be at least 52 centimeters tall to ride.</p>
+    <input id="Height" value="52" />
+    <button onclick="Ride_Function()">Check Ride Eligibility</button>
+    <p id="Ride"></p>
+
+    <hr>
+
+    <!-- Constructor Example -->
+    <h2>Constructor Function Example</h2>
+    <p id="Keywords_and_Constructors"></p>
+
+    <hr>
+
+    <!-- Nested Function Example -->
+    <h2>Nested Function Example</h2>
+    <p id="Counting" onclick="count_Function()">Click here to count</p>
+
+</body>
+</html>
