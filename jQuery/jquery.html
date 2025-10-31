@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Example - Hayder Hasan</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ✅ Reference the jQuery library from the official CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>jQuery Assignment</h1>
+    <p id="text">This text will change color when you click the button below.</p>
+
+    <!-- Button triggers a jQuery event -->
+    <button id="changeColorBtn">Click Me!</button>
+
+    <script>
+        /* 
+         * This function waits until the entire document (page) is loaded.
+         * $(document).ready() is a jQuery method that ensures all HTML is ready before running the script.
+         */
+        $(document).ready(function() {
+
+            // When the button is clicked, the color of the paragraph changes
+            $("#changeColorBtn").click(function() {
+
+                // This line changes the text color and fades it in
+                $("#text")
+                    .css("color", "blue")    // Changes color to blue
+                    .fadeOut(300)            // Fades out in 300ms
+                    .fadeIn(300);            // Fades back in 300ms
+            });
+        });
+    </script>
+</body>
+</html>

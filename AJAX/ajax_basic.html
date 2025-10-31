@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Basic Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AJAX Example - Basic Request</h1>
+
+    <!-- This button triggers the AJAX function when clicked -->
+    <button onclick="loadContent()">Load Content</button>
+
+    <!-- The result of the AJAX call will appear here -->
+    <div id="content">Content will load here...</div>
+
+    <script>
+        // Function to load content from another file using AJAX
+        function loadContent() {
+            var xhttp = new XMLHttpRequest(); // Create a new XMLHttpRequest object
+
+            // Define what happens every time the readyState changes
+            xhttp.onreadystatechange = function() {
+                // When readyState is 4 (done) and status is 200 (success)
+                if (this.readyState == 4 && this.status == 200) {
+                    // Insert the response text (HTML) into the content div
+                    document.getElementById("content").innerHTML = this.responseText;
+                }
+            };
+
+            // Initialize the request: GET method, target file, asynchronous true
+            xhttp.open("GET", "content.html", true);
+            // Send the request
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>
