@@ -1,0 +1,34 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+h3 {
+    color: #0d6efd;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #157347;
+}
+
+#showText, #totalPrice {
+    margin-top: 20px;
+    font-size: 18px;
+}
